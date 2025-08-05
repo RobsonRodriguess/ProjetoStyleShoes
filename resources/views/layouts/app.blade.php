@@ -14,11 +14,6 @@
         <!-- Scripts -->
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     </head>
-    
-    <body class="font-sans antialiased">
-    <header>
-    <div class="min-h-screen bg-gray-100">
-        
 
             <!-- Page Heading -->
            {{-- @isset($header)
