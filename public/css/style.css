@@ -1,0 +1,244 @@
+/* Esconde o texto 'JOGUE COM TUDO!' no mobile */
+@media (max-width: 991.98px) {
+  .mensagem h1,
+  .mensagem p,
+  .mensagem .btn {
+    display: none !important;
+  }
+}
+.custom-bg-dark {
+  background-color: #292727 !important;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+
+.carousel-item img {
+  width: 400px;
+  height: 600px;
+  border-radius: 10%;
+  border-color: gray;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+  background-color: white;
+  border-radius: 50%;
+  padding: 25px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-size: 1.2rem 1.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'><path fill='%23000' transform='scale(-1,1) translate(-640,0)' d='M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z'/></svg>");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'><path fill='%23000' d='M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z'/></svg>");
+}
+
+
+.alerta {
+  background-color: #f8f9fa;
+  color: #000000;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.imagemhome {
+  width: 100%;
+  height: 500px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.imagemhome2 {
+  width: 100%;
+  height: 700px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.mensagem {
+  position: absolute;
+  top: 40%; 
+  left: 20%; 
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #505050;
+}
+
+.msg {
+  position: absolute;
+  top: 40%; 
+  left: 41%;
+  transform: translate(0%, -250%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.btn2 {
+  position: relative;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px;
+  margin: auto;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #505050;
+}
+
+.card {
+  width: 20rem;
+  margin: 20px;
+  border: 10px solid #ffffff;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #292727;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  /* Ajusta navbar e espaçamento dos itens */
+  .navbar-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .navbar-brand img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Ajusta imagens principais */
+  .imagemhome {
+    height: auto;
+  }
+
+  .imagemhome2 {
+    height: auto;
+  }
+
+  /* Ajusta textos sobrepostos nas imagens */
+  .mensagem, .msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    font-size: 0.9rem;
+  }
+
+  .mensagem h1, .msg h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Botões */
+  .btn, .btn2 {
+    width: auto;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  /* Carousel */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+  }
+
+  /* Cards */
+  .card {
+    width: 100%;
+    max-width: 320px;
+    margin: 10px auto;
+    border-radius: 20px;
+  }
+
+  .card-img-top {
+    height: 180px;
+    object-fit: contain;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+  }
+
+  .footer .col {
+    margin-bottom: 15px;
+  }
+
+  .footer i {
+    font-size: 1.5rem;
+  }
+}
+
+/* Ajuste extra para telas muito pequenas (celulares < 480px) */
+@media (max-width: 480px) {
+  .mensagem h1, .msg h1 {
+    font-size: 1.2rem;
+  }
+
+  .mensagem p, .msg p {
+    font-size: 0.8rem;
+  }
+
+  .navbar-brand img {
+    width: 60px;
+    height: 60px;
+  }
+}
