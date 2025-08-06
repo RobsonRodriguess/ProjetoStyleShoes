@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title inertia>Styleshoes</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="{{ asset('favicon-v2.png') }}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -29,10 +30,10 @@
     <div class="collapse navbar-collapse" id="navbarCenter">
       <ul class="navbar-nav mb-2 mb-lg-0 mx-lg-auto flex-column flex-lg-row align-items-lg-center justify-content-center w-100">
         <li class="nav-item">
-          <a class="nav-link" href="/pagina1"><strong>CASUAL</strong></a>
+          <a class="nav-link" href="{{ url('/paginacasual') }}"><strong>CASUAL</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pagina2"><strong>STREETWEAR</strong></a>
+         <a class="nav-link" href="{{ url('/paginastreet') }}"><strong>STREETWEAR</strong></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/pagina3"><strong>FEMININO</strong></a>

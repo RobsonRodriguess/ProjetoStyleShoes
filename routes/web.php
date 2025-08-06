@@ -21,6 +21,16 @@ Route::put('/noticias/{noticia}', [NoticiaController::class, 'update'])->name('n
 */
 Route::get('/search', [NoticiaController::class, 'search'])->name('search');
 
+Route::get('/paginacasual', function () {
+    return view('paginacasual');
+});
+    
+Route::get('/paginastreet', function () {
+    return view('paginastreet');
+});
+
+
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
