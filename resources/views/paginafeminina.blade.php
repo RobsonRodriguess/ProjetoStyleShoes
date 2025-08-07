@@ -75,25 +75,25 @@
         <div class="container py-5">
             <div class="row justify-content-center gap-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/tenis1.png" class="card-img-top" alt="Tênis Casual Branco">
+                    <img src="storage/arquivos/Nike22.png" class="card-img-top" alt="Tênis Casual Branco">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Deviate NITRO™ Elite 3</h5>
+                        <h5 class="card-title">Tênis Feminino Nike AirMax NKS MOOD </h5>
                         <p class="card-text">R$ 199,90</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/teenis2preto.png" class="card-img-top" alt="Tênis Casual Preto">
+                    <img src="storage/arquivos/nike2.png" class="card-img-top" alt="Tênis Casual Preto">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Puma RS-X Preto Edition 5</h5>
+                        <h5 class="card-title">Tênis Feminino Nike YXY Black</h5>
                         <p class="card-text">R$ 219,90</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/tenis3.png" class="card-img-top" alt="Tênis Casual Onyx">
+                    <img src="storage/arquivos/nike3.png" class="card-img-top" alt="Tênis Casual Onyx">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Puma Onyx Storm Black</h5>
+                        <h5 class="card-title">Tênis Feminino Nike Milatary Ofuscasion</h5>
                         <p class="card-text">R$ 599,90</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>

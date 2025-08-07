@@ -36,18 +36,18 @@
          <a class="nav-link" href="{{ url('/paginastreet') }}"><strong>STREETWEAR</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pagina3"><strong>FEMININO</strong></a>
+           <a class="nav-link" href="{{ url('/paginafeminina') }}"><strong>FEMININO</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pagina4"><strong>CHUTEIRAS</strong></a>
+           <a class="nav-link" href="{{ url('/chuteiras') }}"><strong>CHUTEIRAS</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pagina5"><strong>ESPORTIVO</strong></a>
+           <a class="nav-link" href="{{ url('/paginaesportivo') }}"><strong>ESPORTIVO</strong></a>
         </li>
       </ul>
       <ul class="navbar-nav ms-lg-auto flex-row flex-lg-row align-items-center gap-2">
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="bi bi-house"></i></a>
+          <a class="nav-link" href="http://127.0.0.1:8000/"><i class="bi bi-house"></i></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -77,7 +77,7 @@
       <h1><b>JOGUE COM TUDO!<b></h1>
       <p>Consulte as nossas novidades</p>
       <div class="btn btn-primary">
-        <a href="#" class="text-black text-decoration-none"><b>Ver mais<b></a>
+        <a href="{{ url('/chuteiras') }}" class="text-black text-decoration-none"><b>Ver mais<b></a>
       </div>
     </div>
     <br>

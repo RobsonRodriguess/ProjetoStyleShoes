@@ -16,13 +16,13 @@
           <a class="nav-link" href="{{ url('/paginastreet') }}"><strong>STREETWEAR</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pagina3"><strong>FEMININO</strong></a>
+           <a class="nav-link" href="{{ url('/paginafeminina') }}"><strong>FEMININO</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pagina4"><strong>CHUTEIRAS</strong></a>
+          <a class="nav-link" href="{{ url('/chuteiras') }}"><strong>CHUTEIRAS</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pagina5"><strong>ESPORTIVO</strong></a>
+          <a class="nav-link" href="{{ url('/paginaesportivo') }}"><strong>ESPORTIVO</strong></a>
         </li>
       </ul>
       <div class="hidden sm:flex sm:items-center sm:ms-6">

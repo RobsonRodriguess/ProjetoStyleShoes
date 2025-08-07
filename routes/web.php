@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\TenisController;
 use App\Http\Controllers\NoticiaController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Tenis;
 
 /*Route::get('/', function () {
     return view('home');
@@ -29,7 +31,50 @@ Route::get('/paginastreet', function () {
     return view('paginastreet');
 });
 
+Route::get('/paginafeminina', function () {
+    return view('paginafeminina');
+});
 
+Route::get('/chuteiras', function () {
+    return view('chuteiras');
+});
+
+Route::get('/paginaesportivo', function () {
+    return view('paginaesportivo');
+});
+
+Route::resource('tenis', \App\Http\Controllers\TenisController::class)->middleware('auth');
+
+Route::get('/dashboard', function () {
+    $tenis = Tenis::all();
+    return view('dashboard', compact('tenis'));
+})->middleware(['auth'])->name('dashboard');
+
+
+Route::get('/paginacasual', function () {
+    $tenis = Tenis::where('categoria', 'casual')->get();
+    return view('paginacasual', compact('tenis'));
+})->name('casual');
+
+Route::get('/paginastreetweare', function () {
+    $tenis = Tenis::where('categoria', 'streetweare')->get();
+    return view('paginastreetweare', compact('tenis'));
+})->name('streetweare');
+
+Route::get('/paginafeminino', function () {
+    $tenis = Tenis::where('categoria', 'feminino')->get();
+    return view('paginafeminino', compact('tenis'));
+})->name('feminino');
+
+Route::get('/paginachuteiras', function () {
+    $tenis = Tenis::where('categoria', 'chuteiras')->get();
+    return view('paginachuteiras', compact('tenis'));
+})->name('chuteiras');
+
+Route::get('/paginaesportivo', function () {
+    $tenis = Tenis::where('categoria', 'esportivo')->get();
+    return view('paginaesportivo', compact('tenis'));
+})->name('esportivo');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

@@ -75,26 +75,26 @@
         <div class="container py-5">
             <div class="row justify-content-center gap-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/tenis1.png" class="card-img-top" alt="Tênis Casual Branco">
+                    <img src="storage/arquivos/chuteira1.png" class="card-img-top" alt="chuteira1">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Deviate NITRO™ Elite 3</h5>
-                        <p class="card-text">R$ 199,90</p>
+                        <h5 class="card-title">Chuteira Nike Mercurial Superfly 10 Club Society</h5>
+                        <p class="card-text">R$ 289,99</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/teenis2preto.png" class="card-img-top" alt="Tênis Casual Preto">
+                    <img src="storage/arquivos/chuteira2.png" class="card-img-top" alt="chuteira2">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Puma RS-X Preto Edition 5</h5>
+                        <h5 class="card-title">Chuteira Nike Phantom GX II Club Society</h5>
                         <p class="card-text">R$ 219,90</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/tenis3.png" class="card-img-top" alt="Tênis Casual Onyx">
+                    <img src="storage/arquivos/chuteira3.png" class="card-img-top" alt="chuteira3">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Puma Onyx Storm Black</h5>
-                        <p class="card-text">R$ 599,90</p>
+                        <h5 class="card-title">Chuteira Nike Mercurial Vapor 16 Club Society</h5>
+                        <p class="card-text">R$ 188,99</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
                 </div>

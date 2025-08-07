@@ -18,7 +18,6 @@
         overflow-x: hidden;
     }
 </style>
-
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark custom-bg-dark">
         <div class="container-fluid">
@@ -75,26 +74,26 @@
         <div class="container py-5">
             <div class="row justify-content-center gap-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/tenis1.png" class="card-img-top" alt="Tênis Casual Branco">
+                    <img src="storage/arquivos/new1.png" class="card-img-top" alt="new1">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Deviate NITRO™ Elite 3</h5>
-                        <p class="card-text">R$ 199,90</p>
+                        <h5 class="card-title">Tênis New Balance Fuelcell Rebel V5 Masculino</h5>
+                        <p class="card-text">R$ 1.099,99</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/teenis2preto.png" class="card-img-top" alt="Tênis Casual Preto">
+                    <img src="storage/arquivos/new2.png" class="card-img-top" alt="new2">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Puma RS-X Preto Edition 5</h5>
-                        <p class="card-text">R$ 219,90</p>
+                        <h5 class="card-title">Tênis New Balance Fuelcell Supercomp Elite V4 Masculino</h5>
+                        <p class="card-text">R$ 2.099,99</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/tenis3.png" class="card-img-top" alt="Tênis Casual Onyx">
+                    <img src="storage/arquivos/fila1.png" class="card-img-top" alt="fila1">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Puma Onyx Storm Black</h5>
-                        <p class="card-text">R$ 599,90</p>
+                        <h5 class="card-title">Tênis Fila Racer Carbon 3 White Masculino</h5>
+                        <p class="card-text">R$ 1.499,99</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
                 </div>

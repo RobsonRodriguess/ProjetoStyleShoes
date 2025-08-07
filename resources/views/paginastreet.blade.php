@@ -37,18 +37,18 @@
                         <a class="nav-link" href="{{ url('/paginastreet') }}"><strong>STREETWEAR</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/pagina3"><strong>FEMININO</strong></a>
+                        <a class="nav-link" href="{{ url('/paginafeminina') }}"><strong>FEMININO</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/pagina4"><strong>CHUTEIRAS</strong></a>
+                         <a class="nav-link" href="{{ url('/chuteiras') }}"><strong>CHUTEIRAS</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/pagina5"><strong>ESPORTIVO</strong></a>
+                        <a class="nav-link" href="{{ url('/paginaesportivo') }}"><strong>ESPORTIVO</strong></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-lg-auto flex-row flex-lg-row align-items-center gap-2">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-house"></i></a>
+                        <a class="nav-link" href="http://127.0.0.1:8000/"><i class="bi bi-house"></i></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -74,25 +74,25 @@
         <div class="container py-5">
             <div class="row justify-content-center gap-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/tenis1.png" class="card-img-top" alt="Tênis Casual Branco">
+                    <img src="storage/arquivos/adidas5.png" class="card-img-top" alt="Tênis adidas5">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Deviate NITRO™ Elite 3</h5>
-                        <p class="card-text">R$ 199,90</p>
+                        <h5 class="card-title">Tênis Streetweare Forum Low CL</h5>
+                        <p class="card-text">R$ 799,90</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/teenis2preto.png" class="card-img-top" alt="Tênis Casual Preto">
+                    <img src="storage/arquivos/adidas6.png" class="card-img-top" alt="Tênis adidas6">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Puma RS-X Preto Edition 5</h5>
-                        <p class="card-text">R$ 219,90</p>
+                        <h5 class="card-title">Tênis Streetweare Forum2000</h5>
+                        <p class="card-text">R$ 650,90</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="storage/arquivos/tenis3.png" class="card-img-top" alt="Tênis Casual Onyx">
+                    <img src="storage/arquivos/adidas7.png" class="card-img-top" alt="Tênis adidas7">
                     <div class="card-body">
-                        <h5 class="card-title">Tênis Casual Puma Onyx Storm Black</h5>
+                        <h5 class="card-title">Tênis Streetweare Superstar II</h5>
                         <p class="card-text">R$ 599,90</p>
                         <button class="btn btn-secondary w-100">Adicionar ao Carrinho</button>
                     </div>
